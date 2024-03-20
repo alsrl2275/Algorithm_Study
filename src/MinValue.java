@@ -14,6 +14,7 @@ import java.util.StringTokenizer;
 public class MinValue {
 	
 	/*
+	 - 최소값 구하기 -
 	 N개의 수 A(1), A(2), ... A(N)과 L이 주어진다. A(i-L+1) ~ A(i)중 최솟값을 D(i)라고 할 떄, D에 저장된
 	 수를 출력하는 프로그램을 작성하시오. 이떄 i <= 0 인 A(i)는 무시하고 D를 구해야 한다.
 	 */
