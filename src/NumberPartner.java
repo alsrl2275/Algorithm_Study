@@ -27,9 +27,9 @@ public class NumberPartner {
     	HashMap<Integer, Integer> Xmap = new HashMap<>(); // 공통된 숫자가 등장하는 횟수를 담을 배열
     	HashMap<Integer, Integer> Ymap = new HashMap<>(); // 공통된 숫자가 등장하는 횟수를 담을 배열
     	
-    	for(String str : x.split("")) { // 
+    	for(String str : x.split("")) {  
     		
-    		int cur = Integer.parseInt(str); // 문자열 str을 정수로 변환 후 
+    		int cur = Integer.parseInt(str); 
     		Xmap.put(cur, Xmap.getOrDefault(cur, 0) + 1);
     	}
     	
